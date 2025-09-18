@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="954dbdad3b80f210db9a118aa4e45acf" label="Events" max_length="40" name="x_snc_event_maazix_events" type="collection">
+        <element choice="1" default="draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Published" sequence="1" value="published"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Maximum Attendees" max_length="40" name="max_attendees" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date &amp; Time" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organizer Email" max_length="100" name="organizer_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date &amp; Time" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Event Title" mandatory="true" max_length="200" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Code" mandatory="true" max_length="20" name="event_code" type="string"/>
+        <element default="true" label="Registration Open" max_length="40" name="registration_open" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="500" name="location" type="string"/>
+    </element>
+</database>

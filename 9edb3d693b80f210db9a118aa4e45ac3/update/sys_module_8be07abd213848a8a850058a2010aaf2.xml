@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:1bd0e032-a12d-4478-8867-4669eb8bec02",
+  "metadata": {
+    "timestamp": "2025-09-17T18:39:55.975Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.0.0",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-snc-event-maazix",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-snc-event-maazix@1.0.0?sys_scope_id=9edb3d693b80f210db9a118aa4e45ac3",
+      "description": "[BUILD AGENT GENERATED]:  A comprehensive event tracking application that allows internal users to create events and external guests to register, with drag-and-drop functionality to organize attendees into groups for targeted communications",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-snc-event-maazix@1.0.0?sys_scope_id=9edb3d693b80f210db9a118aa4e45ac3"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-snc-event-maazix@1.0.0?sys_scope_id=9edb3d693b80f210db9a118aa4e45ac3"
+    }
+  ]
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_snc_event_maazix/x-snc-event-maazix/1.0.0/bom.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2025-09-17 17:59:22</sys_created_on>
+        <sys_id>8be07abd213848a8a850058a2010aaf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_event_maazix/x-snc-event-maazix/1.0.0/bom.json</sys_name>
+        <sys_package display_value="Event Maazix" source="x_snc_event_maazix">9edb3d693b80f210db9a118aa4e45ac3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Maazix">9edb3d693b80f210db9a118aa4e45ac3</sys_scope>
+        <sys_update_name>sys_module_8be07abd213848a8a850058a2010aaf2</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:59:22</sys_updated_on>
+    </sys_module>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="384dbdad3b80f210db9a118aa4e45a66" label="Event Registrations" max_length="40" name="x_snc_event_maazix_registrations" type="collection">
+        <element label="Checked In" max_length="40" name="checked_in" type="boolean"/>
+        <element choice="1" default="pending" label="Registration Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Attended" sequence="3" value="attended"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="1" value="confirmed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Event" mandatory="true" max_length="32" name="event" reference="x_snc_event_maazix_events" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Special Requirements" max_length="1000" name="special_requirements" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Job Title" max_length="100" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="50" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="100" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Group Assignment" max_length="100" name="group_assignment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.nowDateTime()" label="Registration Date" max_length="40" name="registration_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Dietary Restrictions" max_length="500" name="dietary_restrictions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="200" name="company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Address" mandatory="true" max_length="200" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="First Name" mandatory="true" max_length="100" name="first_name" type="string"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+    </element>
+</database>
