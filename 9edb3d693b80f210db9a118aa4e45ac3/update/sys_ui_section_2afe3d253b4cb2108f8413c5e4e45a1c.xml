@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="2afe3d253b4cb2108f8413c5e4e45a1c" sys_domain="global" table="x_snc_event_maazix_events" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>status</element>
             <position>0</position>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>b6fe31293b4cb2108f8413c5e4e45a03</sys_id>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>89c87fe13b8036108f8413c5e4e45ab1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <position>1</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>76fe31293b4cb2108f8413c5e4e45a04</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>max_attendees</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>fafe31293b4cb2108f8413c5e4e45a04</sys_id>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>45c87fe13b8036108f8413c5e4e45ab2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_code</element>
+            <position>2</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>c9c87fe13b8036108f8413c5e4e45ab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,181 +46,125 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>72fe31293b4cb2108f8413c5e4e45a05</sys_id>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>41c87fe13b8036108f8413c5e4e45ab3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>end_date</element>
+            <element>start_date</element>
             <position>4</position>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>f6fe31293b4cb2108f8413c5e4e45a05</sys_id>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>c5c87fe13b8036108f8413c5e4e45ab3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>5</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>4dc87fe13b8036108f8413c5e4e45ab3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registration_open</element>
+            <position>6</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>c1c87fe13b8036108f8413c5e4e45ab4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>7efe31293b4cb2108f8413c5e4e45a05</sys_id>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>49c87fe13b8036108f8413c5e4e45ab4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>6</position>
+            <element>title</element>
+            <position>8</position>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>f2fe31293b4cb2108f8413c5e4e45a06</sys_id>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>cdc87fe13b8036108f8413c5e4e45ab4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>9</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>45c87fe13b8036108f8413c5e4e45ab5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>10</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>c9c87fe13b8036108f8413c5e4e45ab5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>organizer_email</element>
-            <position>7</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>7afe31293b4cb2108f8413c5e4e45a06</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>start_date</element>
-            <position>8</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>fefe31293b4cb2108f8413c5e4e45a06</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>title</element>
-            <position>9</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>76fe31293b4cb2108f8413c5e4e45a07</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>10</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>fafe31293b4cb2108f8413c5e4e45a07</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>event_code</element>
             <position>11</position>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>72fe31293b4cb2108f8413c5e4e45a08</sys_id>
+            <sys_created_on>2025-09-18 02:58:55</sys_created_on>
+            <sys_id>41c87fe13b8036108f8413c5e4e45ab6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>12</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>f6fe31293b4cb2108f8413c5e4e45a08</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>registration_open</element>
-            <position>13</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>7efe31293b4cb2108f8413c5e4e45a08</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>14</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>f2fe31293b4cb2108f8413c5e4e45a09</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location</element>
-            <position>15</position>
-            <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2025-09-17 18:06:49</sys_created_on>
-            <sys_id>7afe31293b4cb2108f8413c5e4e45a09</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_event_maazix_events" sys_domain="global" view="Default view">2afe3d253b4cb2108f8413c5e4e45a1c</sys_ui_section>
-            <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2025-09-17 18:06:49</sys_updated_on>
+            <sys_updated_on>2025-09-18 02:58:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
